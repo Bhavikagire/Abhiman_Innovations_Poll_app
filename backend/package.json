@@ -1,13 +1,21 @@
 {
-  "name": "backend",
+  "name": "pollapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo \"No build steps required\"" ,
+    "test": "echo \"No test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhavikagire/Abhiman_Innovations_Poll_app.git"
+  },
+ 
+  "bugs": {
+    "url": "https://github.com/Bhavikagire/Abhiman_Innovations_Poll_app/issues"
+  },
+  "homepage": "https://github.com/Bhavikagire/Abhiman_Innovations_Poll_app#readme",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
